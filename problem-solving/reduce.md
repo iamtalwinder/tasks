@@ -28,7 +28,7 @@ console.log(sum); // Expected output: 10
 
 // Test 2
 const sum = array1.myReduce((acc, curr) => acc + curr, 1);
-console.log(sum); // Expected output: 10
+console.log(sum); // Expected output: 11
 
 // Test 3
 const product = array1.myReduce((acc, curr) => acc * curr);
